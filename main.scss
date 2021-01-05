@@ -47,9 +47,66 @@ $backgroundColor : #D3D3D3;
 // featured speakers
 .albums {
  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+ grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+ grid-gap: 20px;
 }
 
 .album {
- background-color: rgb;
+ background-color: rgba(255, 255, 255, 0.2);
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+ padding: 20px;
+ display: grid;
+ grid-template-columns: 150px 1fr;
+ grid-gap: 20px;
+ align-items: center;
+}
+
+.album-head {
+ color: $primaryColor;
+ font-size: 1.2rem;
+ font-weight: bold;
+}
+
+.red-fonts {
+ color: $textColor;
+ font-style: italic;
+ font-size: 1rem;
+ font-weight: bold;
+}
+
+.text {
+ font-size: 0.7rem;
+ color: $primaryColor;
+}
+
+// footers
+
+.footer {
+ text-align: center;
+}
+
+.main-footer {
+ background: $primaryColor;
+ padding: 4rem 4rem;
+}
+
+.partner {
+ color: $backgroundColor;
+ font-size: 1rem;
+ padding: 1rem 0;
+}
+
+.sub-footer {
+ background: $backgroundColor;
+ padding: 4rem 4rem;
+ color: $primaryColor;
+ font-weight: bold;
+}
+
+// about page
+
+.about-container {
+ align-content: center;
+ margin: 0 20rem;
+ padding: 4rem 0;
 }
