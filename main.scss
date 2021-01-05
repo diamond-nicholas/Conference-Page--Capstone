@@ -1,1 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
 // variables
+$primaryColor : #272A31;
+$textColor : #EC5242;
+$backgroundColor : #D3D3D3;
+
+.main-program {
+ background: $primaryColor;
+ padding: 5rem 3rem;
+}
+
+.main-program-head {
+ text-align: center;
+ color: $backgroundColor;
+ font-size: 1rem;
+ padding: 1rem 0;
+}
+
+.main-program-sub {
+ text-align: center;
+ color: $backgroundColor;
+ font-size: 1rem;
+ padding: 1rem 0;
+}
+
+.card-body {
+ background: $primaryColor;
+ opacity: 0.9;
+}
+
+.main-program-card {
+ margin-left: 10rem;
+}
+
+.card-title {
+ color: $textColor;
+ font-size: 1rem;
+ font-weight: bold;
+}
+
+.card-text {
+ color: $backgroundColor;
+ // font-size: 2rem;
+ font-weight: bold;
+}
+
+// featured speakers
+.albums {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.album {
+ background-color: rgb;
+}

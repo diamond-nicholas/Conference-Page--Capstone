@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap");
+
+.main-program {
+  background: #272A31;
+  padding: 5rem 3rem;
+}
+
+.main-program-head {
+  text-align: center;
+  color: #D3D3D3;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.main-program-sub {
+  text-align: center;
+  color: #D3D3D3;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.card-body {
+  background: #272A31;
+  opacity: 0.9;
+}
+
+.main-program-card {
+  margin-left: 10rem;
+}
+
+.card-title {
+  color: #EC5242;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #D3D3D3;
+  font-weight: bold;
+}
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.album {
+  background-color: rgb(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.album-head{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #272A31;
+}
+
+.red-fonts {
+  color: #EC5242;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+/* footer styles */
+.main-footer {
+  background: #272A31;
+  text-align: center;
+  padding: 4rem 4rem;
+
+}
+
+.partner {
+  text-align: center;
+  color: #D3D3D3;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.sub-footer {
+  background: #D3D3D3;
+  text-align: center;
+  padding: 4rem 4rem;
+}
+/*# sourceMappingURL=styles.css.map */
