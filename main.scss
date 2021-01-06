@@ -4,6 +4,67 @@ $primaryColor : #272A31;
 $textColor : #EC5242;
 $backgroundColor : #D3D3D3;
 
+// summit background
+
+.summit-container {
+ padding: 4rem 4rem;
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToFNAup3x1GL_YxYl8cx1HyvCJiFIoetvqcA&usqp=CAU');
+ position: relative;
+ z-index: 0;
+}
+
+.summit-container > * {
+ z-index: 10;
+ position: relative;
+}
+
+.summit-container::after {
+ content: "";
+ display: block;
+ width: 100%;
+ height: 100%;
+ background-color: #333;
+ position: absolute;
+ top: 0;
+ left: 0;
+ opacity: 0.2;
+}
+
+.summit-items {
+  margin-left: 10rem;
+}
+
+.first {
+ color: $textColor;
+ font-size: 2rem;
+ font-weight: bold;
+}
+
+.second {
+ color: $textColor;
+ font-size: 5rem;
+ font-weight: bolder;
+}
+
+.white-border {
+ color: $primaryColor;
+ font-size: 0.8rem;
+ font-weight: bold;
+ // border: 2px solid gray;
+}
+
+.summit-text {
+ font-weight: bold;
+ font-size: 3rem;
+ color: $primaryColor;
+}
+
+.last {
+ font-weight: bold;
+ font-size: 1.5rem;
+ color: $primaryColor;
+}
+
 .main-program {
  background: $primaryColor;
  padding: 5rem 3rem;
@@ -127,4 +188,10 @@ $backgroundColor : #D3D3D3;
  border: 1px solid gray;
  box-shadow: 5px 10px 18px #888;
  margin: 2rem 0;
+}
+
+.submit-btn {
+ background: $textColor;
+ padding: 0.5rem 3rem;
+ margin-bottom: 1rem;
 }
