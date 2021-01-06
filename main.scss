@@ -110,3 +110,21 @@ $backgroundColor : #D3D3D3;
  margin: 0 20rem;
  padding: 4rem 0;
 }
+
+// ticket page
+.tickets-container {
+ text-align: center;
+}
+
+.tickets-table {
+ margin-left: 35rem;
+ padding: 2rem 2rem;
+}
+
+.launch-btn {
+ display: flex;
+ justify-content: space-around;
+ border: 1px solid gray;
+ box-shadow: 5px 10px 18px #888;
+ margin: 2rem 0;
+}
