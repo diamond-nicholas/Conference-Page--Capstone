@@ -32,19 +32,19 @@
 }
 
 .first {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 2rem;
   font-weight: bold;
 }
 
 .second {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 5rem;
   font-weight: bolder;
 }
 
 .white-border {
-  color: #272A31;
+  color: #272a31;
   font-size: 0.8rem;
   font-weight: bold;
 }
@@ -52,36 +52,36 @@
 .summit-text {
   font-weight: bold;
   font-size: 3rem;
-  color: #272A31;
+  color: #272a31;
 }
 
 .last {
   font-weight: bold;
   font-size: 1.5rem;
-  color: #272A31;
+  color: #272a31;
 }
 
 .main-program {
-  background: #272A31;
+  background: #272a31;
   padding: 5rem 3rem;
 }
 
 .main-program-head {
   text-align: center;
-  color: #D3D3D3;
+  color: #d3d3d3;
   font-size: 1rem;
   padding: 1rem 0;
 }
 
 .main-program-sub {
   text-align: center;
-  color: #D3D3D3;
+  color: #d3d3d3;
   font-size: 1rem;
   padding: 1rem 0;
 }
 
 .card-body {
-  background: #272A31;
+  background: #272a31;
   opacity: 0.9;
 }
 
@@ -90,13 +90,13 @@
 }
 
 .card-title {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 1rem;
   font-weight: bold;
 }
 
 .card-text {
-  color: #D3D3D3;
+  color: #d3d3d3;
   font-weight: bold;
 }
 
@@ -117,13 +117,13 @@
 }
 
 .album-head {
-  color: #272A31;
+  color: #272a31;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
 .red-fonts {
-  color: #EC5242;
+  color: #ec5242;
   font-style: italic;
   font-size: 1rem;
   font-weight: bold;
@@ -131,7 +131,7 @@
 
 .text {
   font-size: 0.7rem;
-  color: #272A31;
+  color: #272a31;
 }
 
 .footer {
@@ -139,20 +139,20 @@
 }
 
 .main-footer {
-  background: #272A31;
+  background: #272a31;
   padding: 4rem 4rem;
 }
 
 .partner {
-  color: #D3D3D3;
+  color: #d3d3d3;
   font-size: 1rem;
   padding: 1rem 0;
 }
 
 .sub-footer {
-  background: #D3D3D3;
+  background: #d3d3d3;
   padding: 4rem 4rem;
-  color: #272A31;
+  color: #272a31;
   font-weight: bold;
 }
 
@@ -165,7 +165,7 @@
 .about-title {
   font-size: 2rem;
   font-weight: bold;
-  color: #272A31;
+  color: #272a31;
   text-align: center;
   padding: 1rem 1rem;
 }
@@ -217,7 +217,7 @@
 }
 
 .submit-btn {
-  background: #EC5242;
+  background: #ec5242;
   padding: 0.5rem 3rem;
   margin-bottom: 1rem;
 }
@@ -228,7 +228,7 @@
 }
 
 .clr {
-  color: #EC5242;
+  color: #ec5242;
   font-weight: bold;
   font-size: 1rem;
 }

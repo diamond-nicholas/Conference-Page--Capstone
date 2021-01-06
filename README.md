@@ -17,7 +17,7 @@ The purpose of this project is to put into practise all the knowledge acquired s
 
 ## AUTHORS
 👤 **Diamond Nicholas**
-- GitHub: [@Diamond-Nicholas] (https://github.com/diamond-nicholas)  
+- GitHub:[@Diamond-Nicholas] (https://diamond-nicholas.github.io/Conference-Page--Capstone/)  
 
 ## SHOW YOUR SUPPORT
 Give a \* if you like the project

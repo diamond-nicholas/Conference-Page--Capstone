@@ -1,38 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
 // variables
-$primaryColor : #272A31;
-$textColor : #EC5242;
-$backgroundColor : #D3D3D3;
+$primaryColor : #272a31;
+$textColor : #ec5242;
+$backgroundColor : #d3d3d3;
 
 .logo {
- width: 30px;
-
+  width: 30px;
 }
 
 // summit background
 
 .summit-container {
- padding: 4rem 4rem;
- background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToFNAup3x1GL_YxYl8cx1HyvCJiFIoetvqcA&usqp=CAU');
- position: relative;
- z-index: 0;
+  padding: 4rem 4rem;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToFNAup3x1GL_YxYl8cx1HyvCJiFIoetvqcA&usqp=CAU');
+  position: relative;
+  z-index: 0;
 }
 
 .summit-container > * {
- z-index: 10;
- position: relative;
+  z-index: 10;
+  position: relative;
 }
 
 .summit-container::after {
  content: "";
- display: block;
- width: 100%;
- height: 100%;
- background-color: #333;
- position: absolute;
- top: 0;
- left: 0;
- opacity: 0.2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
 }
 
 .summit-items {
@@ -40,220 +39,218 @@ $backgroundColor : #D3D3D3;
 }
 
 .first {
- color: $textColor;
- font-size: 2rem;
- font-weight: bold;
+  color: $textColor;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .second {
- color: $textColor;
- font-size: 5rem;
- font-weight: bolder;
+  color: $textColor;
+  font-size: 5rem;
+  font-weight: bolder;
 }
 
 .white-border {
- color: $primaryColor;
- font-size: 0.8rem;
- font-weight: bold;
+  color: $primaryColor;
+  font-size: 0.8rem;
+  font-weight: bold;
  // border: 2px solid gray;
 }
 
 .summit-text {
- font-weight: bold;
- font-size: 3rem;
- color: $primaryColor;
+  font-weight: bold;
+  font-size: 3rem;
+  color: $primaryColor;
 }
 
 .last {
- font-weight: bold;
- font-size: 1.5rem;
- color: $primaryColor;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: $primaryColor;
 }
 
 .main-program {
- background: $primaryColor;
- padding: 5rem 3rem;
+  background: $primaryColor;
+  padding: 5rem 3rem;
 }
 
 .main-program-head {
- text-align: center;
- color: $backgroundColor;
- font-size: 1rem;
- padding: 1rem 0;
+  text-align: center;
+  color: $backgroundColor;
+  font-size: 1rem;
+  padding: 1rem 0;
 }
 
 .main-program-sub {
- text-align: center;
- color: $backgroundColor;
- font-size: 1rem;
- padding: 1rem 0;
+  text-align: center;
+  color: $backgroundColor;
+  font-size: 1rem;
+  padding: 1rem 0;
 }
 
 .card-body {
- background: $primaryColor;
- opacity: 0.9;
+  background: $primaryColor;
+  opacity: 0.9;
 }
 
 .main-program-card {
- margin-left: 10rem;
+  margin-left: 10rem;
 }
 
 .card-title {
- color: $textColor;
- font-size: 1rem;
- font-weight: bold;
+  color: $textColor;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .card-text {
- color: $backgroundColor;
- // font-size: 2rem;
- font-weight: bold;
+  color: $backgroundColor;
+  font-weight: bold;
 }
 
 // featured speakers
 .albums {
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
- grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+  grid-gap: 20px;
 }
 
 .album {
- background-color: rgba(255, 255, 255, 0.2);
- box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
- padding: 20px;
- display: grid;
- grid-template-columns: 150px 1fr;
- grid-gap: 20px;
- align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 20px;
+  align-items: center;
 }
 
 .album-head {
- color: $primaryColor;
- font-size: 1.2rem;
- font-weight: bold;
+  color: $primaryColor;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .red-fonts {
- color: $textColor;
- font-style: italic;
- font-size: 1rem;
- font-weight: bold;
+  color: $textColor;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .text {
- font-size: 0.7rem;
- color: $primaryColor;
+  font-size: 0.7rem;
+  color: $primaryColor;
 }
 
 // footers
 
 .footer {
- text-align: center;
+  text-align: center;
 }
 
 .main-footer {
- background: $primaryColor;
- padding: 4rem 4rem;
+  background: $primaryColor;
+  padding: 4rem 4rem;
 }
 
 .partner {
- color: $backgroundColor;
- font-size: 1rem;
- padding: 1rem 0;
+  color: $backgroundColor;
+  font-size: 1rem;
+  padding: 1rem 0;
 }
 
 .sub-footer {
- background: $backgroundColor;
- padding: 4rem 4rem;
- color: $primaryColor;
- font-weight: bold;
+  background: $backgroundColor;
+  padding: 4rem 4rem;
+  color: $primaryColor;
+  font-weight: bold;
 }
 
 // about page
 
 .about-container {
- align-content: center;
- margin: 0 20rem;
- padding: 4rem 0;
+  align-content: center;
+  margin: 0 20rem;
+  padding: 4rem 0;
 }
 
 .about-title {
- font-size: 2rem;
- font-weight: bold;
- color: $primaryColor;
- text-align: center;
- padding: 1rem 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: $primaryColor;
+  text-align: center;
+  padding: 1rem 1rem;
 }
 
 .about-logo {
- display: flex;
- justify-content: center;
- border: 1px solid gray;
- width: 50%;
- padding: 2rem ;
- margin: 1rem 25rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 50%;
+  padding: 2rem ;
+  margin: 1rem 25rem;
 }
 
 .abt-img {
- width: 10%;
+  width: 10%;
 }
 
 .about-logo-text {
- font-size: 2rem;
- margin-left: 1rem;
- font-weight: bold;
+  font-size: 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
 }
 
 .about-p {
- text-align: center;
- font-size: 1rem;
- font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .about-container-gallery {
- padding: 2rem  0; 
+  padding: 2rem  0; 
 
 }
 
 // ticket page
 .tickets-container {
- text-align: center;
+  text-align: center;
 }
 
 .tickets-table {
- margin-left: 35rem;
- padding: 2rem 2rem;
+  margin-left: 35rem;
+  padding: 2rem 2rem;
 }
 
 .launch-btn {
- display: flex;
- justify-content: space-around;
- border: 1px solid gray;
- box-shadow: 5px 10px 18px #888;
- margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+  box-shadow: 5px 10px 18px #888;
+  margin: 2rem 0;
 }
 
 .submit-btn {
- background: $textColor;
- padding: 0.5rem 3rem;
- margin-bottom: 1rem;
+  background: $textColor;
+  padding: 0.5rem 3rem;
+  margin-bottom: 1rem;
 }
 
 .tickets-header {
- font-weight: bold;
- font-size: 2rem;
-
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .clr {
- color: $textColor;
- font-weight: bold;
- font-size: 1rem;
+  color: $textColor;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .btn-top {
- border-radius: 20px;
- padding: 1rem 1rem;
- background: #fff;
- border: 1px solid gray;
+  border-radius: 20px;
+  padding: 1rem 1rem;
+  background: #fff;
+  border: 1px solid gray;
 }
