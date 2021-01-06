@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap");
+.logo {
+  width: 30px;
+}
+
 .summit-container {
   padding: 4rem 4rem;
   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToFNAup3x1GL_YxYl8cx1HyvCJiFIoetvqcA&usqp=CAU");
@@ -158,6 +162,43 @@
   padding: 4rem 0;
 }
 
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #272A31;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+.about-logo {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 50%;
+  padding: 2rem;
+  margin: 1rem 25rem;
+}
+
+.abt-img {
+  width: 10%;
+}
+
+.about-logo-text {
+  font-size: 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.about-p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.about-container-gallery {
+  padding: 2rem 0;
+}
+
 .tickets-container {
   text-align: center;
 }
@@ -179,6 +220,24 @@
   background: #EC5242;
   padding: 0.5rem 3rem;
   margin-bottom: 1rem;
+}
+
+.tickets-header {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.clr {
+  color: #EC5242;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn-top {
+  border-radius: 20px;
+  padding: 1rem 1rem;
+  background: #fff;
+  border: 1px solid gray;
 }
 
 /*# sourceMappingURL=styles.css.map */
