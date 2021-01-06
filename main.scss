@@ -6,23 +6,23 @@ $textColor : #ec5242;
 $backgroundColor : #d3d3d3;
 
 body {
- max-width: 100%;
- font-size: 62.5%;
+  max-width: 100%;
+  font-size: 62.5%;
 }
 
 nav {
- width: 100%;
+  width: 100%;
 }
 
 .main-index {
- margin: 0 5rem;
+  margin: 0 5rem;
 }
 
 .logo {
   width: 30px;
 }
 
-/*summit background*/
+/* summit background */
 .summit-container {
   background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToFNAup3x1GL_YxYl8cx1HyvCJiFIoetvqcA&usqp=CAU');
   position: relative;
@@ -86,7 +86,7 @@ nav {
 }
 
 .article {
- margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .main-program-head {
@@ -178,14 +178,13 @@ nav {
 }
 
 /* about page */
-
 .about-container {
   align-content: center;
   padding: 4rem 0;
 }
 
 .main {
- margin: 0 3rem;
+  margin: 0 3rem;
 }
 
 .about-title {
@@ -235,7 +234,7 @@ nav {
 }
 
 .launch {
- margin: 1rem 3rem;
+  margin: 1rem 3rem;
 }
 
 .launch-btn {
@@ -272,17 +271,16 @@ nav {
 
 /* media queries */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .albums {
+.albums {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
- }
+}
 
- .main-program-card {
+.main-program-card {
   margin-left: 10rem;
 }
 }
-
 
 @media only screen and (min-width: 1024px) {
 .main-program-card {
