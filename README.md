@@ -13,12 +13,15 @@ The purpose of this project is to put into practise all the knowledge acquired s
 -BOOTSTRAP
 
 ## LIVE DEMO
-[Live Demo Link](https://diamond-nicholas.github.io/Newsweek-clone/)
+[Live Demo Link](https://diamond-nicholas.github.io/Conference-Page--Capstone/)
 [Loom Demo Link](https://www.loom.com/share/188045a4474f45439dcbd6ceec7dd757)
 
 ## AUTHORS
 👤 **Diamond Nicholas**
-- GitHub:[@Diamond-Nicholas] (https://diamond-nicholas.github.io/Conference-Page--Capstone/)  
+- GitHub:[@Diamond-Nicholas] (https://github.com/diamond-nicholas) 
+- Twitter: [@twitterhandle](https://twitter.com/diamondnich)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/diamond-nicholas/)
+
 
 ## SHOW YOUR SUPPORT
 Give a \* if you like the project
@@ -28,7 +31,11 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page. Show your support
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+- https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
+
+
 ## 📝 License MIT
-This project is ![MIT]
+This project is [MIT](./LICENSE) licensed.
 
 Microverse Capstone Project
