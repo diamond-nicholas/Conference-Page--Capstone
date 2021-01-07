@@ -6,7 +6,8 @@ you can also download the repo and open the ''index.html" file with Mozilla Fire
 
 ![screenshot](img/Screenshot.png)
 
-The purpose of this project is to put into practise all the knowledge acquired so far in the first module and how to apply those concepts to a real life job.
+The purpose of this project is to put into practise all the knowledge acquired so far in the first module and how to apply those concepts to a real life job. So i was tasked to build a comference website, so i personalised the webpage into a musical band website, where different music lovers can book sessions for various parties and occasions with thier favorite African musicians. 
+
 ## BUILT WITH
 -HTML
 

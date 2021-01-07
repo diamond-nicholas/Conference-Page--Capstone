@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap");
-
 /* variables */
-
 body {
   max-width: 100%;
   font-size: 62.5%;
@@ -205,9 +203,14 @@ nav {
   font-weight: bold;
 }
 
+article {
+  width: 100%;
+}
+
 .about-p {
   font-size: 0.8rem;
   font-weight: bold;
+  margin: 0 4rem;
 }
 
 .about-container-gallery {
@@ -272,7 +275,6 @@ nav {
     margin-left: 10rem;
   }
 }
-
 @media only screen and (min-width: 1024px) {
   .main-program-card {
     margin-left: 10rem;
