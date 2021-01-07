@@ -271,26 +271,26 @@ nav {
 
 /* media queries */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .albums {
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     grid-gap: 10px;
-  }
+ .albums {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px;
+ }
 
-  .main-program-card {
-     margin-left: 10rem;
-  }
+ .main-program-card {
+   margin-left: 10rem;
+ }
 }
 
 @media only screen and (min-width: 1024px) {
-  .main-program-card {
-     margin-left: 10rem;
- }
+ .main-program-card {
+   margin-left: 10rem;
+}
 
-  .albums {
-     margin: 1rem 1rem;
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     grid-gap: 10px;
+ .albums {
+   margin: 1rem 1rem;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px;
  }
 }

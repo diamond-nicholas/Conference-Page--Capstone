@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap");
 /* variables */
-
 body {
   max-width: 100%;
   font-size: 62.5%;
@@ -276,7 +275,6 @@ nav {
     margin-left: 10rem;
   }
 }
-
 @media only screen and (min-width: 1024px) {
   .main-program-card {
     margin-left: 10rem;
