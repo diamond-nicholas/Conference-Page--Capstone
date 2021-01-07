@@ -154,6 +154,10 @@ nav {
   text-align: center;
 }
 
+.footer-logo {
+  width: 10%;
+}
+
 .main-footer {
   background: $primaryColor;
   padding: 4rem 4rem;
@@ -174,10 +178,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-.footer-logo {
-  width: 10%;
 }
 
 /* about page */
