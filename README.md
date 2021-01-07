@@ -9,12 +9,15 @@ you can also download the repo and open the ''index.html" file with Mozilla Fire
 The purpose of this project is to put into practise all the knowledge acquired so far in the first module and how to apply those concepts to a real life job.
 ## BUILT WITH
 -HTML
+
 -CSS
+
 -BOOTSTRAP
 
 ## LIVE DEMO
 [Live Demo Link](https://diamond-nicholas.github.io/Conference-Page--Capstone/)
-[Loom Demo Link](https://www.loom.com/share/188045a4474f45439dcbd6ceec7dd757)
+
+[Video Presentation](https://www.loom.com/share/188045a4474f45439dcbd6ceec7dd757)
 
 ## AUTHORS
 👤 **Diamond Nicholas**

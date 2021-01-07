@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
 
 /* variables */
 $primaryColor : #272a31;
@@ -8,7 +8,8 @@ $backgroundColor : #d3d3d3;
 body {
   max-width: 100%;
   font-size: 62.5%;
-}
+  font-family: 'Lato', sans-serif;
+ }
 
 nav {
   width: 100%;
@@ -89,13 +90,7 @@ nav {
   margin: 0 1rem;
 }
 
-.main-program-head {
-  text-align: center;
-  color: $backgroundColor;
-  font-size: 1rem;
-  padding: 1rem 0;
-}
-
+.main-program-head,
 .main-program-sub {
   text-align: center;
   color: $backgroundColor;
@@ -185,18 +180,20 @@ nav {
 
 .main {
   margin: 0 3rem;
+  text-align: center;
+
 }
 
 .about-title {
   font-size: 1.5rem;
   font-weight: bold;
   color: $primaryColor;
-  text-align: center;
   padding: 1rem 1rem;
 }
 
 .about-logo {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   border: 1px solid gray;
   padding: 2rem;
@@ -214,7 +211,6 @@ nav {
 }
 
 .about-p {
-  text-align: center;
   font-size: 0.8rem;
   font-weight: bold;
 }
