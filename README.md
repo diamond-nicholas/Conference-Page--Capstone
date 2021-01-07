@@ -1,4 +1,4 @@
-# Conference-Page--Capstone
+# Conference-Page
 
 # Getting started :
 This website can be viewed better on the screen size of of 1920 X 1080 in the firefox browser or chrome.
@@ -6,7 +6,7 @@ you can also download the repo and open the ''index.html" file with Mozilla Fire
 
 ![screenshot](img/Screenshot.png)
 
-The purpose of this project is to put into practise all the knowledge acquired so far in the first module and how to apply those concepts to a real life job. So i was tasked to build a comference website, so i personalised the webpage into a musical band website, where different music lovers can book sessions for various parties and occasions with thier favorite African musicians. 
+In this project, I built a conference page using the https://www.behance.net/gallery/29845175/CC-Global-Summit-2015 as a theme in building the project. I made a musical band website, where different music lovers can book sessions for various parties and occasions with thier favorite African musicians. 
 
 ## BUILT WITH
 -HTML
