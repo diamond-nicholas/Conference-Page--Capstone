@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap");
-
 /* variables */
-
 body {
   max-width: 100%;
   font-size: 62.5%;
@@ -166,6 +164,14 @@ nav {
   padding: 4rem 4rem;
   color: #272a31;
   font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  width: 10%;
 }
 
 /* about page */
@@ -277,7 +283,6 @@ article {
     margin-left: 10rem;
   }
 }
-
 @media only screen and (min-width: 1024px) {
   .main-program-card {
     margin-left: 10rem;

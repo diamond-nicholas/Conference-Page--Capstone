@@ -6,7 +6,7 @@ you can also download the repo and open the ''index.html" file with Mozilla Fire
 
 ![screenshot](img/Screenshot.png)
 
-In this project, I built a conference page using the https://www.behance.net/gallery/29845175/CC-Global-Summit-2015 as a theme in building the project. I made a musical band website, where different music lovers can book sessions for various parties and occasions with thier favorite African musicians. 
+In this project, I built a conference page using the (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) as a theme in building the project. I made a musical band website, where different music lovers can book sessions for various parties and occasions with thier favorite African musicians. 
 
 ## BUILT WITH
 -HTML

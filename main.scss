@@ -170,6 +170,15 @@ nav {
   padding: 4rem 4rem;
   color: $primaryColor;
   font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.footer-logo {
+ width: 10%;
 }
 
 /* about page */
