@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap");
+
+/* variables */
+
+body {
+  max-width: 100%;
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  width: 100%;
+}
+
+.main-index {
+  margin: 0 5rem;
+}
+
+.logo {
+  width: 30px;
+}
+
+/* summit background */
+.summit-container {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToFNAup3x1GL_YxYl8cx1HyvCJiFIoetvqcA&usqp=CAU");
+  position: relative;
+  z-index: 0;
+}
+
+.summit-container > * {
+  z-index: 10;
+  position: relative;
+}
+
+.summit-container::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
+.summit-items {
+  padding: 1rem 1rem;
+}
+
+.first {
+  color: #ec5242;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.second {
+  color: #ec5242;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.white-border {
+  color: #272a31;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.summit-text {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #272a31;
+}
+
+.last {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #272a31;
+}
+
+.main-program {
+  background: #272a31;
+  width: 100%;
+}
+
+.article {
+  margin: 0 1rem;
+}
+
+.main-program-head,
+.main-program-sub {
+  text-align: center;
+  color: #d3d3d3;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.card-body {
+  background: #272a31;
+  opacity: 0.9;
+}
+
+.card-title {
+  color: #ec5242;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #d3d3d3;
+  font-weight: bold;
+}
+
+/* featured speakers */
+.albums {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.album {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.album-head {
+  color: #272a31;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.red-fonts {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 0.7rem;
+  color: #272a31;
+}
+
+/* footers */
+.footer {
+  text-align: center;
+}
+
+.footer-logo {
+  width: 10%;
+}
+
+.main-footer {
+  background: #272a31;
+  padding: 4rem 4rem;
+}
+
+.partner {
+  color: #d3d3d3;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.sub-footer {
+  background: #d3d3d3;
+  padding: 4rem 4rem;
+  color: #272a31;
+  font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* about page */
+.about-container {
+  align-content: center;
+  padding: 4rem 0;
+}
+
+.main {
+  margin: 0 3rem;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #272a31;
+  padding: 1rem 1rem;
+}
+
+.about-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid gray;
+  padding: 2rem;
+  margin: 0 3rem;
+}
+
+.abt-img {
+  width: 15%;
+}
+
+.about-logo-text {
+  font-size: 1rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+article {
+  width: 100%;
+}
+
+.about-p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0 4rem;
+}
+
+.about-container-gallery {
+  padding: 2rem 0;
+}
+
+/* ticket page */
+.tickets-container {
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.tickets-table {
+  padding: 2rem 2rem;
+}
+
+.launch {
+  margin: 1rem 3rem;
+}
+
+.launch-btn {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+  box-shadow: 5px 10px 18px #888;
+  margin: 2rem 0;
+}
+
+.submit-btn {
+  background: #ec5242;
+  padding: 0.5rem 3rem;
+  margin-bottom: 1rem;
+}
+
+.tickets-header {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.clr {
+  color: #ec5242;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn-top {
+  border-radius: 20px;
+  padding: 1rem 1rem;
+  background: #fff;
+  border: 1px solid gray;
+}
+
+/* media queries */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .albums {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .main-program-card {
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-program-card {
+    margin-left: 10rem;
+  }
+
+  .albums {
+    margin: 1rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
